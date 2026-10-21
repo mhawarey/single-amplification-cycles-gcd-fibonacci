@@ -2,7 +2,9 @@
 
 Reproduction code for
 
-> Hawarey, M. (2026). Exactly Three Single-Amplification Cycles in GCD-Augmented Fibonacci Recurrences. *AIR Journal of Mathematics and Computational Sciences* (revised version AIR-2026-000962-V2, under review).
+>  Hawarey, M. (2026). Exactly Three Single-Amplification Cycles in GCD-Augmented Fibonacci Recurrences. *AIR Journal of Mathematics and Computational Sciences*, Vol. 2026, AIRMCS2026962.
+https://doi.org/10.65737/AIRMCS2026962
+> https://airjournals.org/doi/10.65737.AIRMCS2026962.html
 
 `reproduce.py` recomputes every numerical result of the paper, Tables 1 and 2, and Figure 1, using exact integer arithmetic. It prints the values in manuscript order, with each block labelled by the section, table, figure or proposition where the values appear, and writes `figure1.png` (300 dpi) and `numbers.json` (all quoted values).
 
@@ -34,7 +36,6 @@ Runtime: about one minute.
 
 ## Versions
 
-- **2.0.0** — revised manuscript (AIR-2026-000962-V2): output labels aligned with the manuscript, full census for both boxes with every cycle reached (including the period-65 cycle), growth of the seeds with no detected cycle, Figure 1 caption values, checks for Proposition 13.
 - **Single_Amp_Cycle_GCD_Fibonacci** (first archived release, DOI [10.5281/zenodo.23265695](https://doi.org/10.5281/zenodo.23265695)) — code for the version first submitted.
 
 ## License
